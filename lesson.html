@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Loop uh</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
-	
-	<!-- Анимация на карточке при ПЕРВОМ клике по ней, checkbox дает понять, добавлять ли товар в корзину.
-	Не знаю почему, но скрипт работает именно так, как задумывалось -->
-	<div class="main center">
-		<div class="label center">
-		  <label onclick="firstFunction(this)">
-			<input type="checkbox"/>
-			<h2>Hello</h2>
-		  </label>
-		</div>
-		
-		<div class="label center">
-		  <label onclick="firstFunction(this)">
-			<input type="checkbox"/>
-			<h2>Hello</h2>
-		  </label>
-		</div>
-		
-		<div class="label center">
-		  <label onclick="firstFunction(this)">
-			<input type="checkbox"/>
-			<h2>Hello</h2>
-		  </label>
-		</div>
-	  </div>
+    <div class="wrapper">
+        <div class="box">
+            <label>
+                <h2>The title tho</h2>
+                <p>Asdasdkas asdkasd askda sdkasd  dskd  dasdasdsa sdds add</p>
+                <input type="checkbox">
+            </label>
+        </div>
 
-	  <script>
-		  var x = true;
-			function firstFunction(elem){
-				if (x == true) {
-				elem.style.animation = 'pulse .4s ease-out';
-				}
-			}
-	  </script>
+        <div class="box">
+            <label>
+                <h2>The title tho</h2>
+                <p>Asdasdkas asdkasd askda sdkasd  dskd  dasdasdsa sdds add</p>
+                <input type="checkbox">
+            </label>
+        </div>
 
+        <div class="box">
+            <label>
+                <h2>The title tho</h2>
+                <p>Asdasdkas asdkasd askda sdkasd  dskd  dasdasdsa sdds add</p>
+                <input type="checkbox">
+            </label>
+        </div>
 
+        <div class="box">
+            <label>
+                <h2>The title tho</h2>
+                <p>Asdasdkas asdkasd askda sdkasd  dskd  dasdasdsa sdds add</p>
+                <input type="checkbox">
+            </label>
+        </div>
+    </div>
 </body>
 </html>
